@@ -1,0 +1,35 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+#gif-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+#gif-container img {
+    max-width: 100%;
+    max-height: 100%;
+    cursor: pointer;
+}
+
+#second-gif {
+    display: none;
+}
+
+#main-content {
+    display: none;
+    text-align: center;
+}
